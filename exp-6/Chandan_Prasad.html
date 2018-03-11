@@ -1,0 +1,39 @@
+<DOCTYPE html>
+    <head>
+        <title>CyTin | Generator | Primes | Multiples</title>
+        <link rel="stylesheet" type="text/css" href="Chandan_Prasad.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page-header heading">
+            <span id="title"><span class="logo"><a title="CyTin | Generator | Primes | Multiples" href="#">CyTin</a></span> Number Generator </span>
+        </div>
+
+        <form action="" class="input_form" id="input" onsubmit="return false">
+            <input class="input_area" id="input1" type="number" name="input_field" placeholder="Enter Number">
+            <input class="input_area" type="number" id="input2" name="input_field2" placeholder="Enter limit">
+            <button class="button" onclick="multiples()">Multiples</button>
+            <button class="button" onclick="primes()">Prime</button>
+        </form>
+
+        <div class="output">
+            <div class="label">Result</div>
+            <hr>
+            <div class="result one">
+                <div>Multiples (<span id="x_mult">x</span>) : </div>
+                <input type="textarea" readonly id="mult_res" >
+                <button onclick="copy_content('mult_res')">Copy</button>
+            </div>
+            <div class="result two">
+                <div>Primes (<span id="x_prime">x</span>) : </div>
+                <input type="textarea" readonly id="prime_res">
+                <button onclick="copy_content('prime_res')">Copy</button>
+            </div>
+        </div>
+
+        <div class="footer">Made with <span>❤</span></div>
+        <hr class="footer-hr">
+    </body>
+    <script src="Chandan_Prasad.js"></script>
+</html>
