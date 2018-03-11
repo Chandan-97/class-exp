@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styling Starts */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    min-width: 320px;
+    margin: 0 auto;
+    background-size: cover;
+    background: linear-gradient(to bottom right, rgba(127, 121, 216, 0.233), rgba(165, 184, 185, 0.829));
+}
+
+#title{
+    font-family: 'Pacifico', cursive;
+}
+
+.heading{
+    position: sticky;
+    margin: 1.2em 1.2em 1.2em 0;
+    padding: 1.2em 1.2em 1.2em 0;
+    /* min-width: 500px; */
+    border: none;
+    text-align: center;
+}
+
+.heading:hover{
+    color: rgb(63, 57, 57);
+    border-radius: 7px;
+    background: rgba(171, 170, 187, 0.233);
+    transition: background-color 200ms linear;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.logo:hover a{
+    color: rgb(117, 112, 131);
+    transition: color 200ms linear;
+}
+
+.input_form{
+    width: 50%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.input_area{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    display: block;
+    height: 7%;
+    width: 100%;
+    margin: 1.2em 1.2em 1.2em 0;
+    padding: 1.2em 1.2em 1.2em 1.2em;
+    text-align: center;
+    font-size: 1.2em;
+    border: 3px solid rgb(68, 62, 62);
+}
+
+.input_area:focus{
+    outline: none !important;
+    border: 3px solid rgb(223, 220, 220);
+    background: white;
+}
+
+.button{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+    margin: 0.5em 0;
+    box-shadow: none;
+}
+
+.button:hover{
+    color: white;
+    background: rgb(61, 61, 63);
+    transition: background-color 300ms linear;
+}
+
+.output{
+    height: 40%;
+    /* border: 1px solid red; */
+    background: gray;
+    border-radius: 7px;
+}
+
+.label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2.0em;
+    color: rgb(28, 28, 28);
+    padding: 10px;
+    text-align: center;
+    background: gray;
+    border-radius: 7px;
+    border: 3px solid gray;
+}
+
+hr{
+    width: 98%;
+    height: 4px;
+    background: rgb(89, 85, 85);
+    border: none;
+}
+
+.result{
+    font-weight: 500;
+    font-size: 1.5em;
+    border-radius: 7px;
+    margin: 2px auto;
+    background: gray;
+}
+
+.one{
+    padding: 1.0em 1.0em 0.4em 1.0em;
+}
+
+.two{
+    padding: 0.4em 1.0em 0.4em 1.0em;
+}
+
+.result input{
+    padding: 8px;
+    width: 80%;
+    max-width: 80%;
+    height: 10%;
+    background: rgb(124, 124, 124);
+    border: 3px solid rgb(44, 43, 43);
+}
+
+.result input:hover, input:focus{
+    background: rgb(211, 211, 211);
+}
+
+.result button{
+    background: gray;
+    border: 3px solid rgb(72, 69, 69);
+    height: 10%;
+    text-align: center;
+    line-height: 22px;
+}
+
+.result button:hover{
+    color: white;
+    background: rgb(67, 65, 65);
+}
+
+.error{
+    border: 3px solid red;
+}
+
+.footer{
+    font-weight: 500;
+    text-align: center; 
+    margin-top: 20px;  
+    font-size: 18px;
+}
+.footer span{
+    color: red;
+}
+
+.footer-hr{
+    border: 2px solid rgba(69, 142, 211, 0.842); 
+    color: rgba(69, 142, 211, 0.842); 
+    margin: 5px 5px; 
+    width: 30%; 
+    margin: 30px auto;
+}
